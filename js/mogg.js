@@ -1,3 +1,4 @@
+
 //编写代码时，使用变量名称ucCookie、quarkCookie，编写完成后务必屏蔽掉，否则会报错（app会自动调用设置中的cookie）。
 //const ucCookie='在设置中登录uc网盘';
 //const quarkCookie='在设置中登录夸克网盘';
@@ -1479,8 +1480,3 @@ for (let i = 0; i < cloudLinks.length; i++) {
 //detailContent('/voddetail/85273.html')
  // .then(data => console.log(data))
 //  .catch(error => console.error('Error:', error));
-
-
-
-
-
