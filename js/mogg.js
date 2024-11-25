@@ -1,3 +1,4 @@
+
 //编写代码时，使用变量名称ucCookie、quarkCookie，编写完成后务必屏蔽掉，否则会报错（app会自动调用设置中的cookie）。
 //const ucCookie='在设置中登录uc网盘';
 //const quarkCookie='在设置中登录夸克网盘';
@@ -883,7 +884,7 @@ async function fetchVideoFiles(url) {
 
 async function homeContent() {
   try {
-    const url = `https://mogg.top/`;
+    const url = `https://www.mogg.top/`;
     const html2 = await 访问网页(url);
     const html = 文本_取中间(html2, "最新影片</h2>", "</html>");
     // 使用正则表达式匹配所有的电影项
@@ -1269,7 +1270,7 @@ async function homeContent() {
 async function searchContent(keyword) {
     try {
         const encodedKeyword = encodeURIComponent(keyword);
-        const url = `https://mogg.top/index.php/vod/search.html?wd=${encodedKeyword}`;
+        const url = `https://www.mogg.top/index.php/vod/search.html?wd=${encodedKeyword}`;
         const html = await 访问网页(url);
         const items = 文本_取中间_批量(html,'<div class="module-search-item">','<div class="video-info-footer">');
         const list = items.map((item) => {
@@ -1319,7 +1320,7 @@ async function categoryContent(tid, pg = 1, extend) {
   try {
     // 解析 extend 参数
     let extendObj = extend ? JSON.parse(extend) : null;
-    let url = `https://mogg.top/index.php/vod/show/area/{area}/class/{class}/by/{by}/id/${tid}/year/{year}/page/${pg}.html`;
+    let url = `https://www.mogg.top/index.php/vod/show/area/{area}/class/{class}/by/{by}/id/${tid}/year/{year}/page/${pg}.html`;
     // 替换 URL 中的占位符
     if (extendObj) {
       for (const [key, value] of Object.entries(extendObj)) {
@@ -1375,7 +1376,7 @@ async function categoryContent(tid, pg = 1, extend) {
 
 //获取影视详情信息
 async function detailContent(ids) {
-  const url = `https://mogg.top${ids}`;
+  const url = `https://www.mogg.top${ids}`;
   try {
     //console.log(url);
     const html = await 访问网页(url);
@@ -1479,8 +1480,3 @@ for (let i = 0; i < cloudLinks.length; i++) {
 //detailContent('/voddetail/85273.html')
  // .then(data => console.log(data))
 //  .catch(error => console.error('Error:', error));
-
-
-
-
-
