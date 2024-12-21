@@ -1,0 +1,136 @@
+{
+	"sites": [{
+		"key": "kuwosong",
+		"name": "🎵酷我┃音乐",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/refs/heads/main/newjs/kuwosong.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "2"
+	},{
+		"key": "6yueting",
+		"name": "6️⃣六月┃听书",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/refs/heads/main/newjs/6yueting.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "2"
+	},{
+		"key": "haiyang",
+		"name": "🌊海洋┃听书",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/refs/heads/main/newjs/haiyang.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "2"
+	},{
+		"key": "kuwotingshu",
+		"name": "🎧酷我┃听书",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/refs/heads/main/newjs/kuwotingshu.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "2"
+	},{
+		"key": "qtradio",
+		"name": "🎧蜻蜓┃FM广播",
+		"type": 5,
+		"searchable": 0,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/refs/heads/main/newjs/qtradio.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "2"
+	}],
+	"parses": [{
+		"name": "解析1",
+		"type": 0,
+		"url": "https://jx.xmflv.com/?url=",
+		"ext": {
+			"flag": ["bilibili1","qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "imgo", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],
+			"header": {
+				"User-Agent": "okhttp/4.1.0"
+			}
+		}
+	},{
+		"name": "解析2",
+		"type": 0,
+		"url": "https://yparse.ik9.cc/index.php?url=",
+		"ext": {
+			"flag": ["bilibili1","qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "imgo", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],
+			"header": {
+				"User-Agent": "okhttp/4.1.0"
+			}
+		}
+	},{
+		"name": "解析3",
+		"type": 1,
+		"url": "https://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+		"ext": {
+			"flag": ["bilibili1","qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "imgo", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],
+			"header": {
+				"User-Agent": "okhttp/4.1.0"
+			}
+		}
+	},{
+		"name": "mytv解析",
+		"type": 0,
+		"url": "https://pl.qcheng.cc/hktvpc.php?url=",
+		"ext": {
+			"flag": ["mytv", "mytvb"],
+			"header": {
+				"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+                "Referer": "http://www.hktv03.com/"
+			}
+		}
+	},{
+		"name": "iKun解析",
+		"type": 0,
+		"url": "https://www.ikdmjx.com/?url=",
+		"ext": {
+			"flag": ["ikm3u8"],
+			"header": {
+				"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+			}
+		}
+	},{
+		"name": "黑木耳解析",
+		"type": 0,
+		"url": "https://hoplayer.com/index.html?url=",
+		"ext": {
+			"flag": ["heimuer"],
+			"header": {
+				"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+			}
+		}
+	}],
+	"flags": ["heimuer","bilibili1","ikm3u8", "mytvb", "mytv", "youku", "优酷", "优酷视频", "qq", "腾讯", "腾讯视频", "iqiyi", "qiyi", "奇艺", "爱奇艺", "m1905", "xigua", "letv", "leshi", "乐视", "sohu", "搜狐", "搜狐视频", "tudou", "pptv", "mgtv", "芒果", "imgo", "芒果TV", "bilibili", "哔哩", "哔哩哔哩", "B站", "renrenmi", "wasu", "ltnb", "rx", "SLYS4k", "BYGA", "BYGB", "luanzi", "dxzy", "QEYSS", "aliyun", "AliS", "122", "chuangying", "CL4K", "xfyun", "wuduzy", "xmm", "xigua", "m1905", "funshion"]
+}
