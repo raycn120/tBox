@@ -1,0 +1,57 @@
+作为一个JavaScript菜鸟的我，希望介绍的文字已足够详细。
+
+在Visual Studio中导入extensions文件夹后，您可以直接编写vod.js文件。
+
+请注意，由于当前环境使用的是JavascriptCore，因此不支持通过import语句导入模块。
+
+在发布时，请确保移除或注释掉所有import相关的代码（不支持导入新的模块，APP内置的模块有：Cheerio、CryptoJS、Iconv、JSEncrypt）。
+
+如果有新的函数需要添加，可以直接将其加入到vod.js文件中，并与现有代码一起发布。
+
+
+关于配置的解释：
+type=5为js扩展
+
+searchable=1开启搜索
+
+"filterClass": "伦理片,爱情片"  过滤相关分类
+
+"firstClass": "国产剧,港台剧"   将相关分类移至最前面
+
+filterPlay": "test1,test2"  过滤相关播放源
+
+"firstPlay": "夸克网盘,夸克网盘2"  将相关播放器放到最前面
+
+"selectedPlayer": "0"  0=推荐播放器   1=系统播放器   2=音频播放器
+
+以下2个参数嗅探播放时可用（当playerContent的parse返回0时，为嗅探资源播放）：
+"filterPlayFileKeywords": "test1,test2"  如果嗅探的资源链接中包含test1或者test2不会取出
+"keepPlayFileKeywords": ".m3u8,.mp4"  嗅探资源关键字（APP已经自动判断了一些视频后缀，如有其他资源需要嗅探可补充在这里）
+
+"flagable" 是否需要调用解析链接播放（1=需要  0=不需要），调用时需要将播放源名称加入配置中
+
+{
+		"key": "wogg",
+		"name": "🧸玩偶┃网盘",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "夸克网盘,夸克网盘2",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/newjs/wogg.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	}
+
+
+
+
+APP会自动将quarkCookie（夸克网盘）、ucCookie（uc网盘）、cloud189Cookie（天翼网盘）、BiliCookie（哔哩哔哩）写入js代码中，如需开发相关代码，请保持调用的cookie变量名一致。
+
+调试时自己let或const下cookie的变量（ 例如：let ucCookie='你的uc网盘cookie'; ）
+发布时记得屏蔽或删除掉变量定义。 //let ucCookie='你的uc网盘cookie'
+
+ps: 前期写的网盘类js扩展代码不是很规范，请参考其他js(已经懒得去完善了^_^)
