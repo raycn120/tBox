@@ -182,6 +182,20 @@
 		"keepPlayFileKeywords": "",
         "selectedPlayer":"0"
 	},{
+		"key": "libvio",
+		"name": "🌏立播|不卡",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "HD5播放,BD播放",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/refs/heads/main/js/libvio.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},{
 		"key": "kuyun",
 		"name": "☁️酷云┃直链",
 		"type": 5,
