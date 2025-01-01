@@ -3,22 +3,13 @@
 
 搜索影片之前，请关闭不常用的站源。
 
-## 规则或APP更新
-天翼云盘：首次使用在设置中登录天翼云盘及打开一次雷鲸。
-天翼云盘的cookie有IP验证,切换IP后cookie会无效，且ipv4和ipv6的cookie无法混用。建议在电信的WIFI环境下使用(ipv4)。
-如雷鲸无返回数据，请在设置中打开一次该站点，该站点有时需效验。
+### 视频源配置链接
+IOS端配置（限1.0.11版以上）： https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/ios.json
 
-IOS视频源： https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/ios.json
+Android端配置（限1.0.11版以上）： https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/android.json
 
-Android端视频源： https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/android.json
+音乐听书配置（限1.0.11版以上）： https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/music.json
 
-听书听歌源： https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/music.json
-
-
-配置中：
- recommend为1时为推荐源，点击影片时会跳转搜索页面。
- selectedPlayer为2时打开详情页后自动选择音频播放器。
- 
  酷我音乐搜索方法：
  
  1：直接输入歌曲名称（例如：爱在西元前）
@@ -44,11 +35,6 @@ User-Agent: okHttp
 User-Agent: okHttp
 
 ------------------------------------------------
-### 视频源配置链接
-新版IOS端配置（限1.0.11版以上）：IOS视频源： https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/ios.json
-
-新版Android端配置（限1.0.11版以上）：Android端视频源： https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/android.json
-
 **关于tBox的更新：**
 
 * 原作者已删除，本人保留了备份，分享给大家
