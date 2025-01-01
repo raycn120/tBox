@@ -4,13 +4,13 @@
 搜索影片之前，请关闭不常用的站源。
 
 ### 视频源配置链接
-IOS端配置（限1.0.11版以上）：
+IOS端配置：
 https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/ios.json
 
-Android端配置（限1.0.11版以上）：
+Android端配置：
 https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/android.json
 
-音乐听书配置（限1.0.11版以上）：
+音乐听书配置：
 https://ghproxy.cn/https://raw.githubusercontent.com/raycn120/tBox/main/music.json
 
  酷我音乐搜索方法：
