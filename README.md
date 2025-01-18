@@ -1,8 +1,3 @@
-## 温馨提示
-夸克网盘需最低88会员观看、UC网盘+天翼云盘无需会员。由于网盘自身限制，夸克+UC切换剧集时建议间隔最少10秒。（播放网盘资源时，建议设置中调整播放器缓存为128M）
-
-搜索影片之前，请关闭不常用的站源。
-
 ### 视频源配置链接
 IOS端配置：
 https://gh-proxy.com/https://raw.githubusercontent.com/raycn120/tBox/main/ios.json
