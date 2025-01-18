@@ -22,22 +22,6 @@ https://gh-proxy.com/https://raw.githubusercontent.com/raycn120/tBox/main/music.
  3：输入专辑文字及名称（例如：专辑叶惠美、周杰伦专辑）
 
 ------------------------------------------------------
-该直播源大部分频道需要ipv6访问，其他源请自行从github搜索。
-
-直播源名称：电视直播
-
-源链接：https://tv.iill.top/m3u/Gather
-
-User-Agent: okHttp
-
----------------------------------------------------
-直播源名称：网络直播
-
-源链接：https://tv.iill.top/m3u/Live
-
-User-Agent: okHttp
-
-------------------------------------------------
 **关于tBox的更新：**
 
 * 原作者已删除，本人保留了备份，分享给大家
