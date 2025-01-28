@@ -1,12 +1,12 @@
 ### 视频源配置链接
 IOS端配置：
-https://gh-proxy.com/https://raw.githubusercontent.com/raycn120/tBox/main/ios.json
+https://ghproxy.cc/https://raw.githubusercontent.com/raycn120/tBox/main/ios.json
 
 Android端配置：
-https://gh-proxy.com/https://raw.githubusercontent.com/raycn120/tBox/main/android.json
+https://ghproxy.cc/https://raw.githubusercontent.com/raycn120/tBox/main/android.json
 
 音乐听书配置：
-https://gh-proxy.com/https://raw.githubusercontent.com/raycn120/tBox/main/music.json
+https://ghproxy.cc/https://raw.githubusercontent.com/raycn120/tBox/main/music.json
 
  酷我音乐搜索方法：
  
