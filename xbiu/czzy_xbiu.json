@@ -15,15 +15,15 @@
 	},
 	"list": {
 		"region": ["<html>", "</html>"],
-		"url": "https://www.czzyvideo.com/{cateId}/page/{catePg}",
-		"vod_id": ["href=\"https://www.czzyvideo.com/", ".html"],
+		"url": "https://www.czzymovie.com/{cateId}/page/{catePg}",
+		"vod_id": ["href=\"https://www.czzymovie.com/", ".html"],
 		"vod_name": ["alt=\"", "\""],
 		"vod_pic": ["data-original=\"", "\"", 0, 0, 2],
 		"vod_remarks": ["class=\"jidi\">", "</div>"]
 	},
 	"detail": {
 		"region": ["<html", "</html>"],
-		"url": "https://www.czzyvideo.com/{vid}.html",
+		"url": "https://www.czzymovie.com/{vid}.html",
 		"vod_name": ["class=\"moviedteail_tt\">", "</div>"],
 		"vod_pic": ["<div class=\"dyimg fl\">", "</div>"],
 		"vod_actor": [">主演：", "</li>"],
@@ -37,8 +37,8 @@
 	"playlist": {
 		"region": ["<div class=\"paly_list_btn\">", "</div>"],
 		"sort": 0,
-		"url": "https://www.czzyvideo.com/{vid}.html",
-		"vod_play_url": ["href=\"https://www.czzyvideo.com/", "\"", 0, 0, 4],
+		"url": "https://www.czzymovie.com/{vid}.html",
+		"vod_play_url": ["href=\"https://www.czzymovie.com/", "\"", 0, 0, 4],
 		"vod_play_url_title": [".html\">", "<"],
 		"vod_play_from": ["在线观看"]
 	},
@@ -48,8 +48,8 @@
 	},
 	"search": {
 		"region": ["<html>", "</html>"],
-		"url": "https://www.czzyvideo.com/daoyongjiekoshibushiyoubing?q={wd}",
-		"vod_id": ["href=\"https://www.czzyvideo.com/", ".html"],
+		"url": "https://www.czzymovie.com/daoyongjiekoshibushiyoubing?q={wd}",
+		"vod_id": ["href=\"https://www.czzymovie.com/", ".html"],
 		"vod_name": ["alt=\"", "\""],
 		"vod_pic": ["data-original=\"", "\"", 0, 0, 2],
 		"vod_remarks": ["class=\"jidi\">", "</div>"]
